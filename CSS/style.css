@@ -1,0 +1,40 @@
+* {
+    font-family: sans-serif;
+}
+
+/* Global Classes */
+
+.hide {
+    display: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+}
+
+.our-answer-alert {
+    border-top: 1px gray;
+    padding-top: 5px;
+    font-style: italic;
+    color: black;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+/* custom styles */
+
+.justify-between {
+    justify-content: space-between;
+}
+
+header h3 {
+    margin: 0;
+}
+
+.our-answer-alert.show {
+    opacity: 1;
+}

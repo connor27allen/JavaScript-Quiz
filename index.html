@@ -3,9 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>JS Quiz</title>
+    <link rel="stylesheet" href="./CSS/style.css">
 </head>
+
 <body>
+
+<header class="row justify-between"></header>
+    <a href="./JavaScript/highscorelist.html">Highscore List</a>
+    <h3 id="output-time">Time: 0</h3>
+
+<div class="start-wrapper text-center">
+    <h2>Coding Challenge</h2>
+    <p>Welcome to the JavaScript Quiz! This is designed to test your fundamental understanding of the programming language. Good luck!</p>
+    <button id="start-button">Start</button>
+</div>
+
+<div class="question-wrapper hide">
+    <h2 class="questions-text"></h2>
+    <div class="the-choices"></div>
+    <p class="our-answer-alert">wrong</p>
+</div>
+
+<div class="score-wrapper text-center hide">
+    <h2 id="output-score">Your Score: </h2>
+    <input id="input-initials" type="text" placeholder="Enter your initials here">
+    <button id="save-our-score">Save</button>
+</div>
+
+<script src="JavaScript/questions.js"></script>
+<script src="JavaScript/script.js"></script>
     
 </body>
 </html>
